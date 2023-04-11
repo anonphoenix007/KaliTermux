@@ -2,9 +2,9 @@
 Kali Linux Pentesting OS can be installed on termux with this Tool written in Bash
 # Installation
 To install:
-git clone https://github.com/anonphoenix007/KaliTermux
-cd KaliTermux
-bash KaliTermux.sh
+# git clone https://github.com/anonphoenix007/KaliTermux
+# cd KaliTermux
+# bash KaliTermux.sh
 
 After the installation is done,you would be asked whether to keep the rootfs for later use,
 Choose an option which suites your need.
