@@ -83,14 +83,7 @@ echo -e "\e[32m[*] \e[34mConfiguring Shebang..."
 termux-fix-shebang $bin
 echo -e "\e[32m[*] \e[34mSetting execution permissions..."
 chmod +x $bin
-echo -e "\e[32m[*] \e[34mDo you want to remove the dowbloaded RootFS?(Y/N)"
-read -p choice "==>"
-if [ $choice == "Y" ];then
-   echo -e "\e[32m[*] \e[34mRemoving RootFS image..."
-   rm -rf $tarball
-else
-   echo -e "\e[32m[*] \e[34mTarball not removed"
-fi
+rm -rf $tarball
 echo
 echo -e "\e[32mKali Linux was successfully installed!\e[39m"
 echo -e "\e[32mYou can now launch it by executing ./${bin} command.\e[39m"
